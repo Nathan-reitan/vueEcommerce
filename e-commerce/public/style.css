@@ -1,0 +1,46 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #566675;
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+h3 {
+    margin: 40px 0 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+a {
+    color: #adb942;
+}
+
+.logo {
+    height: 30vh;
+    margin: 30px;
+}
+
+.peletonRow {
+    width: 100%;
+    background-color: black;
+}
+
+.menuLogo {
+    width: 25px;
+}
+
+.disclaimer {
+    display: flex;
+    align-items: center;
+    color: red;
+    height: 100vh;
+}
