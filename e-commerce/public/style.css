@@ -3,7 +3,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #566675;
+    color: #979b9e;
     font-weight: 700;
     width: 100%;
 }
@@ -49,7 +49,7 @@ a {
 }
 
 .productRow {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .85);
     width: 100%;
     margin: 30px 0;
 }
@@ -73,7 +73,7 @@ a {
     right: -25%;
     top: -10%;
     transform: rotate(45deg);
-    background-color: rgb(173, 152, 28);
+    background-color: rgb(117, 117, 36);
     position: fixed;
     z-index: -1;
 }
@@ -84,7 +84,7 @@ a {
     left: -25%;
     top: 20%;
     transform: rotate(45deg);
-    background-color: rgb(173, 152, 28);
+    background-color: rgb(117, 117, 36);
     position: fixed;
     z-index: -1;
 }
@@ -95,7 +95,7 @@ a {
     right: -25%;
     bottom: 20%;
     transform: rotate(45deg);
-    background-color: rgb(173, 152, 28);
+    background-color: rgb(117, 117, 36);
     position: fixed;
     z-index: -1;
 }
@@ -106,7 +106,7 @@ a {
     left: -25%;
     bottom: -10%;
     transform: rotate(45deg);
-    background-color: rgb(173, 152, 28);
+    background-color: rgb(117, 117, 36);
     position: fixed;
     z-index: -1;
 }
