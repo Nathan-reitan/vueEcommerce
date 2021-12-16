@@ -1,14 +1,17 @@
 <template>
     <div class="disclaimer">
-        <h1>
+        <h3>
             This site is for demonstrative purposes only, nothing is actually for sale. 
-        </h1>
-        <h1>
-             DO NOT ENTER ANY CREDIT CARD INFORMATION INTO THIS SITE.
-        </h1>
-        <h2>
-            Scroll down to see site.
-        </h2>
+        </h3>
+        <h3>
+            DO NOT ENTER ANY CREDIT CARD OR PERSONAL INFORMATION INTO THIS SITE.
+        </h3>
+        <h3>
+            To continue to site please acknowledge the disclaimer by clicking the acknowledge button below.
+        </h3>
+        <button @click="onClick()" class="acknowledgeBtn">
+            Acknowledge
+        </button>
     </div>
 </template>
 
@@ -17,6 +20,11 @@ export default {
   name: 'Disclaimer',
   props: {
     
+  },
+  methods: {
+      onClick(){
+          this.$emit('acknowledge-disclaimer')
+      }
   }
 }
 </script>
