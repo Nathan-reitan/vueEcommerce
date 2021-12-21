@@ -12,6 +12,10 @@ body {
     background-color: black;
 }
 
+h1 {
+    margin: 0;
+}
+
 h3 {
     margin: 40px 0 0;
 }
@@ -27,7 +31,7 @@ li {
 }
 
 a {
-    color: #adb942;
+    color: #c4d625;
 }
 
 .acknowledgeBtn{
@@ -52,6 +56,18 @@ a {
     background-color: rgba(0, 0, 0, .85);
     width: 100%;
     margin: 30px 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productContainer{
+    width: 100%;
+    padding: 15px;
+    max-width: 500px;
+    margin: 15px 0;
 }
 
 .menuLogo {
@@ -110,4 +126,3 @@ a {
     position: fixed;
     z-index: -1;
 }
-

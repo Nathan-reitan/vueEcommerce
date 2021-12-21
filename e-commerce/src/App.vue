@@ -5,26 +5,26 @@
     </div>
     <div v-else>
       <Header />
-      <Products />
+      <Main />
     </div>
   </div>
 </template>
 
 <script>
-import Products from './components/Products.vue'
 import Header from './components/Header.vue'
+import Main from './components/Main.vue'
 import Disclaimer from './components/Disclaimer.vue'
 
 export default {
   name: 'App',
   data(){
     return {
-      disclaimerAcknowledged: false
+      disclaimerAcknowledged: false,
     }
   },
   components: {
     Header,
-    Products,
+    Main,
     Disclaimer
   },
   methods: {
