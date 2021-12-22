@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-          <button @click="onClick">Go Back</button>
+          <button @click="onClick" class="goBack">Go Back</button>
         </div>
         <h1>{{title}}</h1>
         <img :src="image" :alt="altText" />
