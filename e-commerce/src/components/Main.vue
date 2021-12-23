@@ -1,5 +1,9 @@
 <template>
     <main>
+        <div class="topRightDiamond"></div>
+        <div class="topLeftDiamond"></div>
+        <div class="botRightDiamond"></div>
+        <div class="botLeftDiamond"></div>
         <Products v-if="!details" @send-details="sendDetails"/>
         <ProductDetail v-else v-bind="product" @clear-details="clearDetails"/>
     </main>

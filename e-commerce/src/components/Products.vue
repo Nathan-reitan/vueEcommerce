@@ -1,9 +1,5 @@
 <template>
     <div>
-        <div class="topRightDiamond"></div>
-        <div class="topLeftDiamond"></div>
-        <div class="botRightDiamond"></div>
-        <div class="botLeftDiamond"></div>
         <div class="productRow" id="pelotonContainer" >
             <h1>Peloton</h1>
             <img src="../assets/peloton.png" id="peloton" alt="Peloton Bike" class="productContainer" @click="onClick"/>
